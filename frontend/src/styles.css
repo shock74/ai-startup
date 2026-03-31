@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+  color: #e9ecff;
+  background: #080b1a;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  background: linear-gradient(145deg, #101530, #0d1228);
+  border: 1px solid #273260;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hero ul {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: #b7c2ff;
+}
+
+.auth,
+.dashboard {
+  display: grid;
+  gap: 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+input,
+button {
+  border-radius: 10px;
+  border: 1px solid #2f3f7a;
+  padding: 11px 12px;
+  font-size: 0.95rem;
+}
+
+input {
+  background: #0a0f24;
+  color: #f0f3ff;
+}
+
+button {
+  background: #4f7bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.active {
+  background: #6ea0ff;
+}
+
+button.ghost {
+  background: transparent;
+}
+
+.feedback {
+  color: #9db0ff;
+  margin: 0;
+}
